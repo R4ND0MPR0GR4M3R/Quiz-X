@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyBrOY6uSJhx-FWHMj3cNGXJCSnTb9StQ4o",
+  authDomain: "show-do-milhaum.firebaseapp.com",
+  databaseURL: "https://show-do-milhaum-default-rtdb.firebaseio.com",
+  projectId: "show-do-milhaum",
+  storageBucket: "show-do-milhaum.appspot.com",
+  messagingSenderId: "1047802211896",
+  appId: "1:1047802211896:web:bcbac36bece43ea76300cd"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="js/Contestant.js"></script>
+    <script src="js/Question.js"></script>
+    <script src="js/Quiz.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
